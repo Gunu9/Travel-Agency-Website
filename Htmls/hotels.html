@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaurav Travels</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <img id="logo" src="../images/Logo.png" alt="logo" />
+        <ul>
+          <li class="navlists">
+            <a href="http://127.0.0.1:5500/index.html">Home</a>
+          </li>
+          <li class="navlists"><a href="flight.html">Flight</a></li>
+          <li class="navlists"><a href="train.html">Train</a></li>
+          <li class="navlists"><a href="hotels.html">Hotels</a></li>
+          <li class="navlists"><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hotelSection">
+      <form id="Search" action="hotel.nodejs">
+        <input
+          type="text"
+          class="inputHotels"
+          placeholder="Where you are going?"
+        />
+        <input type="text" class="inputHotels" placeholder="Date" />
+        <button type="submit" id="hotelSearch">Search</button>
+      </form>
+
+      <h1 id="suggestionHead">Our suggestions...</h1>
+      <div class="suggestedPlaces">
+        <div class="sPlaces suggestedPlace" id="sPlace1">
+          <h2 class="sHead">Agra</h2>
+          <p class="sPara">413 Properties</p>
+        </div>
+        <div class="sPlaces suggestedPlace" id="sPlace2">
+          <h2 class="sHead">Houston</h2>
+          <p class="sPara">1,013 Properties</p>
+        </div>
+        <div class="sPlaces1 suggestedPlace" id="sPlace3">
+          <h2 class="sHead">Chennai</h2>
+          <p class="sPara">1,406 Properties</p>
+        </div>
+        <div class="sPlaces1 suggestedPlace" id="sPlace4">
+          <h2 class="sHead">Bangkok</h2>
+          <p class="sPara">4,040 Properties</p>
+        </div>
+        <div class="sPlaces1 suggestedPlace" id="sPlace5">
+          <h2 class="sHead">Mumbai</h2>
+          <p class="sPara">1,651 Properties</p>
+        </div>
+      </div>
+    </section>
+    <div id="hr">
+      <hr id="hr1" />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+    <footer id="footer">
+      <div class="social">
+        <ul class="socialUl">
+          <li class="socialLinks"><i class="fa-brands fa fa-facebook"></i></li>
+          <li class="socialLinks"><i class="fa-brands fa fa-youtube"></i></li>
+          <li class="socialLinks"><i class="fa-brands fa fa-twitter"></i></li>
+          <li class="socialLinks"><i class="fa-brands fa fa-linkedin"></i></li>
+          <li class="socialLinks"><i class="fa-brands fa fa-instagram"></i></li>
+        </ul>
+      </div>
+      <h3 id="footerH">&copy; Gaurav Singh Garbyal</h3>
+    </footer>
+  </body>
+</html>

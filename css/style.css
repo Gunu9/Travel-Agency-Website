@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Poppins:wght@300&family=Smooch&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+#navbar{
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+#logo {
+  width: 90px;
+  margin-left: 50%;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+}
+.navlists {
+  list-style: none;
+  margin: 7px auto 3px 10%;
+  padding: 10px;
+}
+.navlists a {
+  text-decoration: none;
+  color: #12328a;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: "Poppins";
+  padding: 0px 60px;
+}
+
+.navlists:hover {
+  background-color: rgb(226, 209, 209);
+}
+#title {
+  padding: 4% 0 2% 0;
+  background-color: #ffc700;
+}
+
+.heading {
+  color: #001f69;
+  font-family: Macondo;
+  letter-spacing: 2px;
+  display: inline;
+  position: absolute;
+  margin: 5% 0 0 7%;
+  font-size: 3rem;
+}
+.quotes {
+  font-size: 13px;
+  padding-top: 10px;
+  font-family: emoji;
+}
+#hImg {
+  width: 40rem;
+  border-radius: 100%;
+  margin-left: 50%;
+}
+#hr{
+  display: flex;
+  margin: 20px;
+}
+#hr1{
+  margin-left: 50%;
+}
+hr{
+  margin: 2% 1% auto;
+  height: 10px;
+  border: 3px solid;
+  background-color: #3c70f3;
+  color: #3c70f3;
+  opacity: 1;
+  border-radius: 100%;
+  width: 0.6%;
+}
+.destinations {
+  padding: 9%;
+  border-radius: 10px;
+}
+.destination {
+  display: flex;
+  justify-content: center;
+}
+.Place {
+  border: none;
+  border-radius: 9px;
+  box-shadow: 1px 1px 7px 1px;
+  margin: 21px;
+  cursor: pointer;
+}
+.Place:hover{
+  box-shadow: 7px 5px 24px 11px;
+}
+#lPlace {
+  border-right: 1px solid;
+}
+.destinationHead {
+  margin: 5% 28%;
+  font-size: 3.3rem;
+  font-family: koulen;
+  letter-spacing: 1px;
+  display: block;
+}
+.destinationImg {
+  display: flex;
+  width: 21rem;
+  border-radius: 12px;
+  margin: 20px 37px;
+}
+.destinationH2 {
+  justify-content: center;
+  display: inline-block;
+  margin-left: 40%;
+  font-size: 22px;
+  font-family: system-ui;
+}
+.price {
+  margin: 18px 0 12px 30%;
+  font-size: 18px;
+  font-family: system-ui;
+  font-weight: 800;
+}
+#testimonials{
+  margin-top: 10%;
+}
+#allTestimonials{
+  display: flex;
+}
+.arrow{
+  --border-size: 0.5rem;
+  --size: calc(var(--border-size)*4);
+
+  border-left: var(--border-size) solid rgb(255, 0, 0);
+  border-bottom: var(--border-size) solid rgb(255, 0, 0);
+  width: var(--size);
+  height: var(--size);
+
+  transform: rotate(var(--direction, 0));
+  margin: 10% 1%;
+  cursor: pointer;
+}
+.arrow:hover{
+  border-left: var(--border-size) solid rgb(83, 0, 0);
+  border-bottom: var(--border-size) solid rgb(83, 0, 0);
+  background-color: rgb(159, 163, 165);
+}
+.Right{
+  --direction: 45deg;
+}
+.Left{
+  --direction: 225deg;
+}
+.testimonital{
+  width: 30%;
+  height: 24rem;
+  margin: 30px 2% 30px 40px;
+  border: 1px solid;
+  border-radius: 20px;
+  font-family: system-ui;
+  text-align: left;
+}
+.testimonialImg{
+  width: 20%;
+  margin: 2px 9px;
+  border-radius: 100%;
+  border: 3px solid #d3c2c2;
+}
+#testimonialHead{
+  margin: 20px 40%;
+  font-size: 4rem;
+  font-family: 'Koulen';
+}
+.tHead{
+  margin: 20px 15%;
+  font-size: 1.4rem;
+}
+.ptestimonital{
+  margin: 30px 20% 15px 15%;
+  font-size: 1.2rem;
+  font-family: smooch;
+  font-size: 22px;
+}
+.headAbout{
+  color: #001f69;
+  font-family: Macondo;
+  letter-spacing: 2px;
+  display: block;
+  margin: 2% 0px 10% 7%;
+  font-size: 3rem;
+}
+#titleAbout{
+  padding: 5%;
+  background-color: #ffc700;
+}
+.aboutP{
+  margin: 20px 10%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  color: #0c2869;
+}
+#flightDiv{
+  background-image: url('../images/flights.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#flights{
+  border: none;
+  width: 40%;
+  border-radius: 20px;
+  margin: 10% auto;
+  box-shadow: 2px 2px 15px 3px;
+}
+
+#flightHead{
+  margin: 25px 5%;
+  font-size: 4rem;
+  font-family: Smooch, Macondo;
+  letter-spacing: 2px;
+}
+#flightForm{
+  margin: 3% 5%;
+}
+.flightInput{
+  padding: 15px 30px;
+  margin: 20px 25px;
+  border-radius: 15px;
+  display: block;
+}
+.fromTo{
+  display: inline;
+}
+.checkbox{
+  margin: 25px 5px;
+  font-size: 18px;
+  font-family: cursive;
+  color: magenta;
+}
+#submit{
+  background-color: #0049ff;
+  cursor: pointer;
+  padding: 20px 30px;
+  font-size: 22px;
+  font-family: system-ui;
+  font-weight: bold;
+  color: #ffdc5e;
+  border: none;
+}
+#submit:hover{
+  background-color: #1244c1;
+  color: #ffcb0e;
+  box-shadow: 1px 1px 15px 7px black;;
+}
+
+#Search{
+  margin: 4% 30%;
+}
+#suggestionHead{
+  font-size: 3rem;
+  margin: 20px 30%;
+  font-family: Poppins, Koulen;
+}
+.inputHotels{
+  padding: 10px 20px;
+  font-size: 12px;
+  border: 2px solid yellow;
+  display: inline;
+  margin: 20px;
+}
+#hotelSearch{
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #0066ff;
+  color: white;
+  font-size: 12px;
+}
+.suggestedPlaces{
+  margin: 6% 0 5% 20%;
+  color: #fff;
+}
+.sPlaces {
+  border: 1px solid;
+  display: inline-block;
+  width: 40rem;
+  height: 20rem;
+  margin: 25px;
+  padding: 15px;
+  color: #fff;
+}
+#sPlace1{
+  background-image: url('../images/Agra.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sPlace2{
+  background-image: url('../images/houston.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sHead{
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 5px 0;
+  background-color: #00000013;
+}
+.sPara{
+  font-size: 14px;
+}
+.sPlaces1{
+  display: inline-block;
+  width: 24rem;
+  height: 23rem;
+  margin: 25px;
+  padding: 15px;
+  color: #fff;
+}
+#sPlace3{
+  background-image: url('../images/Chennai.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sPlace4{
+  background-image: url('../images/Bankok.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sPlace5{
+  background-image: url('../images/Mumbai.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.suggestedPlace{
+  cursor: pointer;
+  border-radius: 10px;
+}
+.suggestedPlace:hover{
+  border: 2px solid black;
+}
+.fa{
+  padding: 10px;
+  margin: 3rem 2em 20px 0px;
+  cursor: pointer
+}
+.socialUl{
+  margin-left: 50%;
+}
+.trainSection{
+  border: 1px solid;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+table {
+  font-family: "Poppins";
+  width: 100%;
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 2%;
+}
+.trainD{
+  cursor: pointer;
+}
+.trainD:hover{
+  box-shadow: 2px 1px 2px 2px;
+}
+.BookT{
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 1px 1px 7px 1px;
+  color: black;
+  font-size: 1.2rem;
+}
+.BookT:hover{
+  box-shadow: -2px -1px 10px 0px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#footer {
+  background-color: #1b71b3;
+  margin-top: 20px;
+}
+#footerH {
+  margin: 40px;
+  color: white;
+  font-size: 15px;
+  font-family: Macondo;
+  letter-spacing: 2px;
+  margin-left: 50%;
+}
